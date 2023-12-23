@@ -9,13 +9,13 @@ const FoodItem = observer(({ food }) => {
     return (
             < Col md = {2} className = 'mt-3' onClick={() => history.push(FOOD_ROUTE + '/' + food.id)}>
                 <Card style={{ width: 150, cursor: 'pointer' }} border={'light'} className='br-20'>
-                    <Image width={150} height={150} src={food.img}/>
+                    <Image width={150} height={150} src={process.env.REACT_APP_API_URL + food.img}/>
                     <div className='mt-1 m-auto p-1'>
                         <div>{food.name}</div>
                         <div className="col-form-label-sm d-flex justify-content-center">
-                            <div >
+                            <strong>
                                 {food.price + " руб "}
-                            </div>
+                            </strong>
                         </div>
                     </div>
                 </Card>

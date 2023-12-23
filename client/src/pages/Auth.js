@@ -70,7 +70,6 @@ const Auth = observer(() => {
 
         </Form>
       </Card>
-
     </Container>
   );
 })
