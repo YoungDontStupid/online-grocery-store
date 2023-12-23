@@ -21,8 +21,16 @@ export default class FoodStore {
             
         ]
         this._foods = [
-            { "id": 1, "name": 'Кола Evervess, с газом', "price": 91, "img": 'https://cm.samokat.ru/processed/l/public/fa51dab157892492_4600494685507.jpg' },
-            { "id": 2, "name": 'Круассан York Fresh, с ветчиной и сыром', "price": 185, "img": 'https://cm.samokat.ru/processed/l/public/6490205804210af8_4660042190532-1.jpg' }
+            { "id": 1, "name": 'Кока-кола', "price": 91, "img": 'https://cm.samokat.ru/processed/l/public/fa51dab157892492_4600494685507.jpg' },
+            { "id": 2, "name": 'Круассан', "price": 185, "img": 'https://w7.pngwing.com/pngs/162/757/png-transparent-sporting-goods-health-food-health-food-health-food-sport-nutrition.png' },
+            { "id": 3, "name": 'Сыр', "price": 185, "img": 'https://cm.samokat.ru/processed/l/public/6490205804210af8_4660042190532-1.jpg' },
+            { "id": 4, "name": 'Ветчина', "price": 185, "img": 'https://cm.samokat.ru/processed/l/public/6490205804210af8_4660042190532-1.jpg' },
+            { "id": 5, "name": 'Хлеб', "price": 185, "img": 'https://cm.samokat.ru/processed/l/public/6490205804210af8_4660042190532-1.jpg' },
+            { "id": 6, "name": 'Яйца, 10 шт', "price": 185, "img": 'https://cm.samokat.ru/processed/l/public/6490205804210af8_4660042190532-1.jpg' },
+            { "id": 6, "name": 'Яйца, 10 шт', "price": 185, "img": 'https://cm.samokat.ru/processed/l/public/6490205804210af8_4660042190532-1.jpg' },
+            { "id": 6, "name": 'Яйца, 10 шт', "price": 185, "img": 'https://cm.samokat.ru/processed/l/public/6490205804210af8_4660042190532-1.jpg' }
+
+
         ]
         this._selectedCategory = {}
         this._selectedType = {}

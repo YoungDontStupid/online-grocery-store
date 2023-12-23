@@ -1,17 +1,19 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import CategoryBar from '../components/CategoryBar';
-import TypeBar from '../components/TypeBar';
+import FoodList from '../components/FoodList';
 
 const Shop = () => {
   return (
     <Container>
-        <Row className="mt-2">
+        <Row>
             <Col md={3}>
+                <h2 className='mt-2 m-auto'>Категории</h2>
                 <CategoryBar />
-            </Col>
+            </Col>  
             <Col md={9}>
-              {/* <TypeBar /> */}
+            <h2 className='d-flex mt-2 m-end'>Товары</h2>
+              <FoodList />
             </Col>
         </Row>
     </Container>
